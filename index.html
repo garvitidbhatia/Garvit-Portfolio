@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garvit - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(4, 4, 4);
+            color: red;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 130px;
+            background-color: rgb(32, 31, 31);
+            ;
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            font-size: 2rem;
+            
+        }
+
+        nav ul li {
+            list-style: none;
+
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: red;
+
+
+        }
+
+        nav ul li a:hover {
+
+            color: white;
+        }
+
+        main hr {
+            border: 0;
+            background: white;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 3rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0;
+
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+
+            font-size: 2.8rem;
+            width: 34px;
+
+
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: rgb(32, 31, 31);
+            color: red;
+            font-size: 2rem;
+            margin: 30px 5px;
+            cursor: pointer;
+        }
+
+
+        .rightSection {
+
+            width: 34px;
+        }
+
+        .white {
+            color: white;
+        }
+
+        .text-white {
+            color: rgb(239, 59, 59);
+        }
+
+        .vertical-text {
+            position: relative;
+            top: 160px;
+            width: 150px;
+            text-align: center;
+            margin: -75px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 230px;
+            width: 150px;
+            margin: -75px;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        footer {
+            background-color: rgb(32, 31, 31);
+            height: 233px;
+            font-size: 3rem;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+        }
+
+        #element {
+            color: white;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            font-size: 2rem;
+            height: 80vh;
+
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 70vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 250px;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">BHATIA'S PORTFOLIO</div>
+            <div class="right"></div>
+            <UL>
+               
+                <LI><a href="about.html">ABOUT</a></LI>
+                <LI><a href="projects.html">PROJECTS</a></LI>
+                <LI><a href="contact.html">CONTACT ME</a></LI>
+            </UL>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hello, My name is <span class="white"> Garvit Bhatia </span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <a href="http://github.com"><button  class="btn">Visit GitHub</button></a>
+
+                </div>
+            </div>
+
+
+            <div class="rightSection">
+                <img src="k.jpeg" alt="style="
+                width= 80%;
+                margin= 50px 0;>
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-white">What I have done so far</span>
+            <h1>Educational Background</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="vertical-text">
+                        Class 10
+                        (2020)
+                    </div>
+                    <div class="vertical-desc">
+                        I completed my 10th from DMA, Meerut with a score of 90%
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-text">
+                        Class 12
+                        (2022)
+                    </div>
+                    <div class="vertical-desc">
+                        I completed my 12th from DMA, Meerut with a score of 82%
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-text">
+                        Graduation (2026)
+                    </div>
+                    <div class="vertical-desc">
+                        I am currently pursuing my Btech from AKGEC
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-text">
+                        Post Graduation
+                    </div>
+                    <div class="vertical-desc">
+                        I am planning on doing the masters in buisness administration
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Bhatia's Developer Portfolio</h3>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer',],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
